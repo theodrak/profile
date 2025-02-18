@@ -1,6 +1,6 @@
 body {
-  color: #659B5E ;
-  background-color: rgba(153, 221, 200,0.5);
+  color: #659b5e;
+  background-color: rgba(153, 221, 200, 0.5);
   font-family: "Atkinson Hyperlegible Next", serif;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #659B5E;
+  color: #659b5e;
 }
 
 i:hover {
@@ -48,13 +48,18 @@ p {
 }
 
 .button-forestgreen {
-  color: #95BF74;
-  background-color: #556F44;
+  color: #95bf74;
+  background-color: #556f44;
   width: 200px;
   height: 50px;
   border-radius: 15px;
-  border: 1px solid #9fcec6;  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #9fcec6;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
 
+.button-forestgreen:hover {
+  background-color: #759c5c;
+  color: #ade087;
 }
 
 .text_center {
@@ -65,11 +70,10 @@ p {
   text-align: justify;
 }
 
-
 @media (min-width: 780px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 760px;   /* This sets the width */
+    width: 760px; /* This sets the width */
     margin: 20px auto; /* This automatically sets left/right margins */
     border-color: #385752;
     border-radius: 40px;
@@ -83,7 +87,7 @@ p {
 @media (max-width: 780px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 540px;   /* This sets the width */
+    width: 540px; /* This sets the width */
     margin: 20px auto; /* This automatically sets left/right margins */
     border-color: #385752;
     border-radius: 40px;
@@ -97,7 +101,7 @@ p {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;   /* This sets the width */
+    width: 300px; /* This sets the width */
     margin: 20px auto; /* This automatically sets left/right margins */
     border-color: #385752;
     border-radius: 40px;
