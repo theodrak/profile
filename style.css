@@ -60,6 +60,7 @@ p {
 .button-forestgreen:hover {
   background-color: #759c5c;
   color: #ade087;
+  cursor: pointer;
 }
 
 .text_center {
